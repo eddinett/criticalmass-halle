@@ -156,10 +156,10 @@ img.info-allg   {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid darkgray;
 }
-hr.accordion-border {
-    margin: 0px;
-    color: lightgrey;
+.nodivider  {
+    border-bottom: none;
 }
 
 .panel p    {
@@ -183,8 +183,9 @@ footer table    {
 }
 footer i    {
     font-size: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
+}
+footer ul   {
+    display: none;
 }
 
 /* MOLBILE COSTUMIZATION */
@@ -220,8 +221,24 @@ footer i    {
         text-decoration: underline;
         font-family: 'MPLUS 2 Bold';
     }
+    footer table    {
+        display: none;
+    }
+    footer ul   {
+        display: inline !important;
+        list-style-type: none;
+        text-align: center;
+        padding: 0px;
+    }
+    footer li   {
+        margin: 20px;
+    }
+    footer i    {
+        margin: 20px;
+        font-size: 35px;
+    }
 }
 
 
-/* document updated in version 3.3.1 from 2021/12/02 */
+/* document updated in version 3.3.3 from 2021/12/07 */
 /* CODED BY EDDINETT.DEV */
